@@ -7,9 +7,9 @@
         "store",
         "bot"
     ],
-    "repository": "https://github.com/LazyDeveloperr/MissRozy",
-    "website": "https://telegram.dog/LazyDeveloperr",
-    "success_url": "https://t.me/LazyDeveloperr",
+    "repository": "https://github.com",
+    "website": "https://telegram.dog/MD_Bots",
+    "success_url": "https://t.me/MD_Bots",
     "env": {
         "API_ID": {
             "description": "Get this value from my.telegram.org or @TeleORG_Bot"
