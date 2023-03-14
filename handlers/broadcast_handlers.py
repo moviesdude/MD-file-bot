@@ -1,4 +1,4 @@
-# (c) @LazyDeveloperr
+
 
 import time
 import string
