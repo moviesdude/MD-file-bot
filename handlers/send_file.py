@@ -1,4 +1,4 @@
-# (c) @LazyDeveloperr
+
 
 import asyncio
 from configs import Config
