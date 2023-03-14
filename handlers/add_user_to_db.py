@@ -1,4 +1,4 @@
-# (c) @LazyDeveloperr
+
 
 from configs import Config
 from handlers.database import db
