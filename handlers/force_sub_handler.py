@@ -1,4 +1,4 @@
-# (c) @LazyDeveloperr
+
 
 import asyncio
 from typing import (
