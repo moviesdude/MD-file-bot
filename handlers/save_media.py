@@ -140,7 +140,7 @@ async def save_media_in_channel(bot: Client, editable: Message, message: Message
         await forwarded_msg.reply_text(
             f"#PRIVATE_FILE:\n\n[{message.from_user.first_name}](tg://user?id={message.from_user.id}) Got File Link!",
             disable_web_page_preview=True)
-        share_link = f"https://t.me/{Config.BOT_USERNAME}?start=LazyDeveloperr_{str_to_b64(file_er_id)}"
+        share_link = f"https://t.me/{Config.BOT_USERNAME}?start=MD_Developer_{str_to_b64(file_er_id)}"
         await editable.edit(
             "**𝘺𝘰𝘶𝘳 𝘍𝘪𝘭𝘦𝘴 𝘚𝘵𝘰𝘳𝘦𝘥 𝘪𝘯 𝘮𝘺 𝘋𝘢𝘵𝘢𝘣𝘢𝘴𝘦!**\n\n"
             f"𝙃𝙚𝙧𝙚 𝙞𝙨 𝙩𝙝𝙚 𝙋𝙚𝙧𝙢𝙖𝙣𝙚𝙣𝙩 𝙇𝙞𝙣𝙠 𝙤𝙛 𝙮𝙤𝙪𝙧 𝙛𝙞𝙡𝙚: {share_link}  \n\n"
@@ -201,7 +201,7 @@ async def save_media_in_channel(bot: Client, editable: Message, message: Message
             else:
                 # ✧ Please don't add unnescesary things here >[LazyDeveloper]
                 await bot.send_photo(lazy_channel,photo=location,caption=caption_zabi,reply_markup=reply_markup)
-                cptz = f"🥷\n\nღ♡ **𝘗𝘖𝘚𝘛 𝘜𝘗𝘓𝘖𝘈𝘋𝘌𝘋 𝘖𝘕 𝘊𝘏𝘈𝘕𝘕𝘌𝘓 𝘚𝘜𝘊𝘊𝘌𝘚𝘚𝘍𝘜𝘓𝘓𝘠**✅\n\n• ʙᴇ ᴄᴀʀᴇꜰᴜʟʟ - ʏᴏᴜ ᴀʀᴇ ᴄᴜʀʀᴇɴᴛʟʏ ɪɴ ʟᴀᴢʏ_ᴍᴏᴅᴇ\n• @ʟᴀᴢʏᴅᴠᴇʟᴏᴘᴇʀ"
+                cptz = f"🥷\n\nღ♡ **𝘗𝘖𝘚𝘛 𝘜𝘗𝘓𝘖𝘈𝘋𝘌𝘋 𝘖𝘕 𝘊𝘏𝘈𝘕𝘕𝘌𝘓 𝘚𝘜𝘊𝘊𝘌𝘚𝘚𝘍𝘜𝘓𝘓𝘠**✅\n\n• ʙᴇ ᴄᴀʀᴇꜰᴜʟʟ - ʏᴏᴜ ᴀʀᴇ ᴄᴜʀʀᴇɴᴛʟʏ ɪɴ ʟᴀᴢʏ_ᴍᴏᴅᴇ\n• @MoviesDude_LinkZz"
                 k = await message.reply_text(text=cptz)
                 await asyncio.sleep(40)
                 await k.delete()
