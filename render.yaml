@@ -16,7 +16,7 @@ services:
         sync: false
       - key: BOT_OWNER
         sync: false
-      - key: DATABASE_URI
+      - key: DATABASE_URL
         sync: false 
       - key: LAZY_PIC
         sync: false
@@ -27,5 +27,19 @@ services:
       - key: UPDATES_CHANNEL
         sync: false
       - key: DB_CHANNEL
+        sync: false
+      - key: LAZY_MODE
+        sync: false
+      - key: FORWARD_AS_COPY
+        sync: false
+      - key: BROADCAST_AS_COPY
+        sync: false
+      - key: BANNED_USERS
+        sync: false
+      - key: BANNED_CHAT_IDS
+        sync: false
+      - key: OTHER_USERS_CAN_SAVE_FILE
+        sync: false
+      - key: LAZY_CHANNEL
         sync: false
     autoDeploy: false
